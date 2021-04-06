@@ -11,6 +11,7 @@ namespace PR6_Characters
     {
         static void Main(string[] args)
         {
+            //Занести в файл F 10 символов. Подсчитать, сколько раз встречается среди них буква 'Z'.
             string path = Path.Combine(Environment.CurrentDirectory, "text1.txt"); //путь до папки с exe
             try
 
