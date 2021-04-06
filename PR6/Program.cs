@@ -11,6 +11,7 @@ namespace PR6
     {
         static void Main(string[] args)
         {
+            //Занести в файл F 10 целых чисел, не превышающих 255. Определить количество нечетных чисел в этом файл
             var random = new Random();
             string path = Path.Combine(Environment.CurrentDirectory, "text.txt"); //путь до папки с exe
             try
